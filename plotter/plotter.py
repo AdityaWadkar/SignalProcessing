@@ -112,7 +112,7 @@ class Window(Frame):
 def main():
     portName = 'COM5'
     #portName = '/dev/ttyACM0'
-    baudRate = 9600
+    baudRate = 9600         # Baudrate require for program
     maxPlotLength = 100     # number of points in x-axis of real time plot
     dataNumBytes = 2        # number of bytes of 1 data point
     numPlots = 1            # number of plots in 1 graph
